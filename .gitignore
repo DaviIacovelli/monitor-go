@@ -1,0 +1,19 @@
+# Binários compilados
+monitor-go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Banco de dados local
+monitor.db
+monitor_test.db
+
+# Logs e arquivos temporários
+*.log
+.env
+
+# Arquivos do sistema e IDEs
+.DS_Store
+.vscode/
