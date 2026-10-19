@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Monitor-Go — Sistema Backend de Monitoramento em Go
 
 Aplicação backend de alta performance desenvolvida em **Go (Golang)**, estruturada com padrões de arquitetura limpa em camadas (Clean/Layered Architecture), separação de responsabilidades e foco em testes automatizados.
@@ -75,5 +74,3 @@ go test -v -cover ./...
 Desenvolvido por **Davi Iacovelli**
 
 *Estudante de Ciência da Computação — Universidade Veiga de Almeida (UVA)*
-
-```
