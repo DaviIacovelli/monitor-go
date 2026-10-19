@@ -15,7 +15,7 @@ Aplicação backend de alta performance desenvolvida em **Go (Golang)**, estrutu
 ## 📂 Arquitetura do Projeto
 O projeto segue uma divisão modular limpa para facilitar a manutenção, escalabilidade e testabilidade do código:
 
-```text
+
 monitor-go/
 ├── config/        # Configurações gerais da aplicação e variáveis de ambiente
 ├── database/      # Conexão, inicialização e gerenciamento do banco de dados
@@ -25,3 +25,28 @@ monitor-go/
 ├── main.go        # Ponto de entrada da aplicação (Entrypoint / Router)
 ├── main_test.go   # Testes unitários e de integração do sistema
 └── go.mod         # Gerenciamento de módulos e dependências Go
+⚙️ Como Executar o Projeto
+Certifique-se de ter o Go (Golang) instalado na sua máquina (versão 1.18+ recomendada).
+
+Clone este repositório:
+
+Bash
+git clone [https://github.com/Davilacovelli/monitor-go.git](https://github.com/Davilacovelli/monitor-go.git)
+cd monitor-go
+Baixe as dependências do projeto:
+
+Bash
+go mod tidy
+Execute a aplicação:
+
+Bash
+go run main.go
+🧪 Executando os Testes Automatizados
+O projeto conta com testes unitários implementados no arquivo main_test.go. Para rodar a suíte de testes com relatório de cobertura, utilize:
+
+Bash
+go test -v -cover ./...
+👤 Autor
+Desenvolvido por Davi Iacovelli
+
+Estudante de Ciência da Computação — Universidade Veiga de Almeida (UVA)
